@@ -1,0 +1,8 @@
+services:
+  mat043:
+    image: mat043
+    restart: always
+    ports:
+      - "8083:8080"
+    networks:
+      - karavan
