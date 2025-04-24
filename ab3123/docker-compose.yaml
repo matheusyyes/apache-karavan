@@ -1,0 +1,8 @@
+services:
+  ab3123:
+    image: ab3123
+    restart: always
+    ports:
+      - "8082:8080"
+    networks:
+      - karavan
